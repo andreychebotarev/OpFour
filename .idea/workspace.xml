@@ -11,11 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae5220ca-c99a-4e86-b35b-07eb65c7c00c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/processes.cpp" />
-    </list>
+    <list default="true" id="ae5220ca-c99a-4e86-b35b-07eb65c7c00c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -144,12 +140,20 @@
       <option name="presentableId" value="Default" />
       <updated>1563471869137</updated>
       <workItem from="1563471871565" duration="34000" />
-      <workItem from="1563473080359" duration="277000" />
+      <workItem from="1563473080359" duration="342000" />
     </task>
+    <task id="LOCAL-00001" summary="file name change from main to processes">
+      <created>1563473419597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563473419597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311000" />
+    <option name="totallyTimeSpent" value="376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="204" y="23" width="1306" height="1027" extended-state="0" />
@@ -179,6 +183,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="file name change from main to processes" />
+    <option name="LAST_COMMIT_MESSAGE" value="file name change from main to processes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
