@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Chebs/GitHub/OpFour/main.cpp">
+		<Unit filename="/Users/Chebs/GitHub/OpFour/processes.cpp">
 			<Option target="OpFour"/>
 		</Unit>
 		<Unit filename="/Users/Chebs/GitHub/OpFour/CMakeLists.txt">

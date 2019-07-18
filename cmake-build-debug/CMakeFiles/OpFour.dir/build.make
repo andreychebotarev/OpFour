@@ -57,38 +57,38 @@ include CMakeFiles/OpFour.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpFour.dir/flags.make
 
-CMakeFiles/OpFour.dir/main.cpp.o: CMakeFiles/OpFour.dir/flags.make
-CMakeFiles/OpFour.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Chebs/GitHub/OpFour/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpFour.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpFour.dir/main.cpp.o -c /Users/Chebs/GitHub/OpFour/main.cpp
+CMakeFiles/OpFour.dir/processes.cpp.o: CMakeFiles/OpFour.dir/flags.make
+CMakeFiles/OpFour.dir/processes.cpp.o: ../processes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Chebs/GitHub/OpFour/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpFour.dir/processes.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpFour.dir/processes.cpp.o -c /Users/Chebs/GitHub/OpFour/processes.cpp
 
-CMakeFiles/OpFour.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpFour.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Chebs/GitHub/OpFour/main.cpp > CMakeFiles/OpFour.dir/main.cpp.i
+CMakeFiles/OpFour.dir/processes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpFour.dir/processes.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Chebs/GitHub/OpFour/processes.cpp > CMakeFiles/OpFour.dir/processes.cpp.i
 
-CMakeFiles/OpFour.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpFour.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Chebs/GitHub/OpFour/main.cpp -o CMakeFiles/OpFour.dir/main.cpp.s
+CMakeFiles/OpFour.dir/processes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpFour.dir/processes.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Chebs/GitHub/OpFour/processes.cpp -o CMakeFiles/OpFour.dir/processes.cpp.s
 
-CMakeFiles/OpFour.dir/main.cpp.o.requires:
+CMakeFiles/OpFour.dir/processes.cpp.o.requires:
 
-.PHONY : CMakeFiles/OpFour.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/OpFour.dir/processes.cpp.o.requires
 
-CMakeFiles/OpFour.dir/main.cpp.o.provides: CMakeFiles/OpFour.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/OpFour.dir/main.cpp.o.provides
+CMakeFiles/OpFour.dir/processes.cpp.o.provides: CMakeFiles/OpFour.dir/processes.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/processes.cpp.o.provides.build
+.PHONY : CMakeFiles/OpFour.dir/processes.cpp.o.provides
 
-CMakeFiles/OpFour.dir/main.cpp.o.provides.build: CMakeFiles/OpFour.dir/main.cpp.o
+CMakeFiles/OpFour.dir/processes.cpp.o.provides.build: CMakeFiles/OpFour.dir/processes.cpp.o
 
 
 # Object files for target OpFour
 OpFour_OBJECTS = \
-"CMakeFiles/OpFour.dir/main.cpp.o"
+"CMakeFiles/OpFour.dir/processes.cpp.o"
 
 # External object files for target OpFour
 OpFour_EXTERNAL_OBJECTS =
 
-OpFour: CMakeFiles/OpFour.dir/main.cpp.o
+OpFour: CMakeFiles/OpFour.dir/processes.cpp.o
 OpFour: CMakeFiles/OpFour.dir/build.make
 OpFour: CMakeFiles/OpFour.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Chebs/GitHub/OpFour/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpFour"
@@ -99,7 +99,7 @@ CMakeFiles/OpFour.dir/build: OpFour
 
 .PHONY : CMakeFiles/OpFour.dir/build
 
-CMakeFiles/OpFour.dir/requires: CMakeFiles/OpFour.dir/main.cpp.o.requires
+CMakeFiles/OpFour.dir/requires: CMakeFiles/OpFour.dir/processes.cpp.o.requires
 
 .PHONY : CMakeFiles/OpFour.dir/requires
 

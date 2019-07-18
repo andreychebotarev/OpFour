@@ -123,32 +123,32 @@ OpFour/fast:
 	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/build
 .PHONY : OpFour/fast
 
-main.o: main.cpp.o
+processes.o: processes.cpp.o
 
-.PHONY : main.o
+.PHONY : processes.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/main.cpp.o
-.PHONY : main.cpp.o
+processes.cpp.o:
+	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/processes.cpp.o
+.PHONY : processes.cpp.o
 
-main.i: main.cpp.i
+processes.i: processes.cpp.i
 
-.PHONY : main.i
+.PHONY : processes.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/main.cpp.i
-.PHONY : main.cpp.i
+processes.cpp.i:
+	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/processes.cpp.i
+.PHONY : processes.cpp.i
 
-main.s: main.cpp.s
+processes.s: processes.cpp.s
 
-.PHONY : main.s
+.PHONY : processes.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/main.cpp.s
-.PHONY : main.cpp.s
+processes.cpp.s:
+	$(MAKE) -f CMakeFiles/OpFour.dir/build.make CMakeFiles/OpFour.dir/processes.cpp.s
+.PHONY : processes.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... OpFour"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... processes.o"
+	@echo "... processes.i"
+	@echo "... processes.s"
 .PHONY : help
 
 
