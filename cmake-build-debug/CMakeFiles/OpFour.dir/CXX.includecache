@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Chebs/GitHub/OpFour/main.cpp
+stdio.h
+-
+iostream
+-
+unistd.h
+-
+stdlib.h
+-
+sys/wait.h
+-
+string.h
+-
+

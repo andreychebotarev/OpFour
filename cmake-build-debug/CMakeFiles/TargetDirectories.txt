@@ -1,0 +1,3 @@
+/Users/Chebs/GitHub/OpFour/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Chebs/GitHub/OpFour/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Chebs/GitHub/OpFour/cmake-build-debug/CMakeFiles/OpFour.dir
