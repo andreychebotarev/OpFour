@@ -3,4 +3,4 @@ project(OpFour)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(OpFour main.cpp)
+add_executable(OpFour processes.cpp)

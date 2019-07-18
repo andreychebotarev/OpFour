@@ -8,6 +8,7 @@ using namespace std;
 
 int main(int argc, char ** argv)
 {
+// AS DEMONSTRATED IN THE POWERPOINT
 
     int pid, status;
     int fd1[2], fd2[2]; // file descriptors for pipes
